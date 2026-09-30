@@ -29,7 +29,7 @@ The following taxonomy defines the major categories of execution and programming
 ## 2. Code DIFF and Semantic Clustering DETAILS with defining factors on how clustering gets done AND LINK TO FOLDER:
 
 <p align="center">
- <a href="https://github.com/Anshuman22coder/AI_DRIVEN_ADAPTIVE_BUG_FEEDBACK/tree/bc8c220a27f88951fe502b053ae488b58ce67d15/AST_Code-Diff_defining_factors_clustering" target="_blank" rel="noopener noreferrer">
+ <a href="https://github.com/Anshuman22coder/AI_DRIVEN_ADAPTIVE_BUG_FEEDBACK/tree/main/AST_Code-Diff_defining_factors_clustering" target="_blank" rel="noopener noreferrer">
     [View GITHUB folder]
   </a>
 </p>
