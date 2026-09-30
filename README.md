@@ -26,3 +26,19 @@ The following taxonomy defines the major categories of execution and programming
 | **H** | **Math & Transformation Errors**  | Errors where the code applies an incorrect computational or structural transformation. This includes arithmetic mistakes, incorrect operators or formulas, division by zero, sign errors, string manipulation issues, regular-expression errors, and flawed aggregation or sequence transformations. | **MT01:** `ZeroDivisionError: division by zero`<br>**MT02:** `ZeroDivisionError: float division by zero`                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **N** | **No Error Detected**             | Represents cases where no execution error is detected or no applicable error category is identified.                                                                                                                                                                                                 | —                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 2. Code DIFF and Semantic Clustering DETAILS with defining factors on how clustering gets done AND LINK TO FOLDER:
+
+<p align="center">
+ <a href="https://github.com/Anshuman22coder/AI_DRIVEN_ADAPTIVE_BUG_FEEDBACK/tree/bc8c220a27f88951fe502b053ae488b58ce67d15/AST_Code-Diff_defining_factors_clustering" target="_blank" rel="noopener noreferrer">
+    [View GITHUB folder]
+  </a>
+</p>
+Semantic Validity: Embedding models do not cluster student submissions randomly or on superficial whitespace alone; they form distinct semantic manifolds capturing code length, nesting depth, and naming conventions.
+
+Defensive vs. Idiomatic Taxonomies:
+
+Cluster 3 captures defensive programming styles containing multiple input validations, higher AST edit distances, and compact naming.
+
+Cluster 7 captures idiomatic implementations adhering closely to the canonical textbook quadratic formula.
+
+Automated Interpretability: Combining GumTree AST diffing with surrogate tree-based classifiers provides an end-to-end framework to interpret and explain deep neural code clustering.
