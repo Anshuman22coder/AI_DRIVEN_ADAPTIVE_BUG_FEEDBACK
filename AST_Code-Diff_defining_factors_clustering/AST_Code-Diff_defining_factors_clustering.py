@@ -36,8 +36,8 @@
 # 1. INSTALL REQUIRED LIBRARIES
 # ============================================================
 
-!pip install -q code-diff openpyxl scikit-learn joblib
-!pip install -q tree-sitter==0.20.4 code-tokenize apted
+#!pip install -q code-diff openpyxl scikit-learn joblib
+#!pip install -q tree-sitter==0.20.4 code-tokenize apted
 
 
 # ============================================================
